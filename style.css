@@ -1,0 +1,17 @@
+/* fill the iframe/container, transparent background for Google Sites */
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+  touch-action: none;
+}
+#canvas:active { cursor: grabbing; }
